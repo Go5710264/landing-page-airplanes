@@ -1,0 +1,11 @@
+@import './mixin.scss';
+
+.main-container{
+  @include nsm {
+    background-color: #181818;
+  }
+}
+
+.section{
+  background: none;
+}

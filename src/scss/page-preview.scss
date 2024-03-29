@@ -1,0 +1,68 @@
+@import './mixin.scss';
+
+.page-preview {
+
+    @include nsm {
+        padding-top: 6.40vw;
+        padding-bottom: 4.3vw;
+    }
+
+    // .page-preview__container-box
+
+    &__container-box {}
+
+    // .page-preview__title
+
+    &__title {
+        @include nsm {
+            margin-bottom: 4.27vw;
+            font-weight: 900;
+            font-size: 6.93vw;
+            letter-spacing: -.2vw;
+            color: #fff;
+        }
+    }
+
+    // .page-preview__wrapper-image
+
+    &__wrapper-image {
+        @include nsm {
+            width: 89.33vw;
+            height: 89.33vw;
+            position: relative;
+            overflow: hidden;
+            border-radius: 4vw;
+        }
+    }
+
+    // .page-preview__img
+
+    &__img {
+        @include nsm {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // .page-preview__button
+
+    &__button {
+        @include nsm {
+            position: absolute;
+            width: 80vw;
+            height: 12.8vw;
+            bottom: -3.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #E03638;
+            border-radius: 4vw;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 4.27vw;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
