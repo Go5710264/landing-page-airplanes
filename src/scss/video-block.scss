@@ -1,0 +1,42 @@
+@import './mixin.scss';
+
+.video-block {
+
+    // .video-block__video
+
+    &__video {
+        @include nsm {
+            background-color: #fff;
+            border-radius: 4vw;
+            height: 54.93vw;
+            width: 89.33vw;
+            margin: auto;
+            margin-bottom: 6.67vw;
+        }
+    
+        // .video-block__video_beauty-academy
+
+        &_beauty-academy {
+            height: 46.67vw;
+        }    
+    }
+
+    // .video-block__button
+
+    &__button {
+        @include nsm {
+            width: 100%;
+            height: 12.8vw;
+            margin: auto;
+            background-color: #E03638;
+            border-radius: 4vw;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 4.27vw;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

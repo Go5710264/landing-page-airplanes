@@ -1,0 +1,29 @@
+@import './mixin.scss';
+
+.go-back-sections {
+    display: flex;
+    column-gap: 2.67vw;
+
+
+    // .go-back-sections__arrow-wrapper
+
+    &__arrow-wrapper {
+        width: 3.73vw;
+        height: 4.27vw;
+    }
+
+    // .go-back-sections__img
+
+    &__img {
+        width: 100%;
+        height: 100%;   
+    }
+
+    // .go-back-sections__text
+
+    &__text {
+        font-size: 4.27vw;
+        font-weight: 700;
+        text-transform: lowercase;
+    }
+}

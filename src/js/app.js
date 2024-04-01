@@ -1,5 +1,14 @@
 // TODO: write your code here
-document.addEventListener('DOMContentLoaded', () => {
+import Swiper from "swiper";
+import 'swiper/css';
 
-  console.log('worked');
+
+document.addEventListener('DOMContentLoaded', () => {
+  new Swiper('.gray-advertising-page__swiper-container', {
+    slidesPerView: 1.25,
+    spaceBetween: 20,
+    slidesOffsetBefore: 20,
+    slidesOffsetAfter: 20,
+  });
+  
 });

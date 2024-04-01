@@ -48,6 +48,14 @@ module.exports = {
       template: './src/massage-chairs.html',
       filename: './massage-chairs.html',
     }),
+    new HtmlWebPackPlugin({
+      template: './src/daily-massage.html',
+      filename: './daily-massage.html',
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/beauty-academy.html',
+      filename: './beauty-academy.html',
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',

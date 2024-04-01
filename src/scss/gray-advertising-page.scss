@@ -1,0 +1,83 @@
+@import './mixin.scss';
+
+.gray-advertising-page {
+    padding-top: 6.67vw;
+    padding-bottom: 6.67vw;
+    background-color: #383838;
+    border-radius: 4vw;
+    
+    // .gray-advertising-page + .gray-advertising-page
+    &~&{
+        margin-top: 8.80vw;
+    }
+
+    // .gray-advertising-page__container-box
+
+    &__container-box {
+    }
+
+    // .gray-advertising-page__text-block
+
+    &__text-block {
+        width: 100%;
+        margin-bottom: 6.67vw;
+    }
+
+    // .gray-advertising-page__text-block-item
+
+    &__text-block-item {
+        margin-bottom: 8vw;
+        font-size: 4.53vw;
+        line-height: 1.7;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    // .gray-advertising-page__text-bold
+
+    &__text-bold {
+        font-weight: 700;
+    }
+
+    // .gray-advertising-page__figure-wrapper
+
+    &__figure-wrapper {
+        width: 100%;
+        height: 92.80vw;
+
+        // .gray-advertising-page__figure-wrapper_margin-bottom
+
+        &_margin-bottom {
+            margin-bottom: 6.67vw;
+        }
+    
+    }
+
+    // .gray-advertising-page__figure-img
+
+    &__figure-img {
+        width: 100%;
+        height: 84.8vw;
+        margin-bottom: 2.67vw;
+
+        // .gray-advertising-page__figure-img_border-round
+
+		&_border-round {
+			border-radius: 4vw;
+		}
+    }
+
+    // .gray-advertising-page__figure-caption
+
+    &__figure-caption {
+        font-size: 4vw;
+    }
+    
+    // .gray-advertising-page__swiper-container
+
+    &__swiper-container {
+        height: 93.47vw;
+    }    
+}
