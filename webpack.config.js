@@ -56,6 +56,14 @@ module.exports = {
       template: './src/beauty-academy.html',
       filename: './beauty-academy.html',
     }),
+    new HtmlWebPackPlugin({
+      template: './src/hair-styler.html',
+      filename: './hair-styler.html',
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/rf-lifting.html',
+      filename: './rf-lifting.html',
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',

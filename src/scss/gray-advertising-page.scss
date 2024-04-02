@@ -78,6 +78,7 @@
     // .gray-advertising-page__swiper-container
 
     &__swiper-container {
+        overflow: hidden;
         height: 93.47vw;
     }    
 }

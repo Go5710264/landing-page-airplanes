@@ -8,6 +8,8 @@ import './scss/go-back-sections.scss'
 import './scss/gray-advertising-page.scss'
 import './scss/video-block.scss';
 import './scss/beauty-academy.scss';
+import './scss/hair-styler.scss';
+import './scss/rf-lifting.scss';
 
 
 

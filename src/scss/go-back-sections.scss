@@ -25,5 +25,11 @@
         font-size: 4.27vw;
         font-weight: 700;
         text-transform: lowercase;
+
+        // .go-back-sections__text_black
+
+        &_black {
+            color: #000000;
+        }
     }
 }
