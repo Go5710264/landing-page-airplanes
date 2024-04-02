@@ -17,5 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesOffsetBefore: 20,
     slidesOffsetAfter: 20,
   });
+
+  new Swiper('.beauty-boxes__swiper-container', {
+    slidesPerView: 1.25,
+    spaceBetween: 20,
+    slidesOffsetBefore: 20,
+    slidesOffsetAfter: 20,
+  });
   
 });

@@ -1,25 +1,25 @@
 @import './mixin.scss';
 
-.rf-lifting {
+.headband {
     color: #513434;
-    background-image: url('/src/picture/rf-lifting-bg.webp');
+    background-image: url('/src/picture/headband-bg.webp');
     padding-bottom: 8.8vw;
 
-    // .rf-lifting__header
+    // .headband__header
 
     &__header {
         width: 100%;
-        height: 93.60vw;
+        height: 100.8vw;
         margin-bottom: 10.67vw;
     }
 
-    // .rf-lifting__img
+    // .headband__img
     &__img {
         width: 100%;
         height: 100%;
     }
 
-    // .rf-lifting__question-title
+    // .headband__question-title
 
     &__question-title {
         @include nsm {
@@ -29,7 +29,7 @@
         }
     }
 
-    // .rf-lifting__question-number
+    // .headband__question-number
 
     &__question-number {
         @include nsm {
@@ -40,7 +40,7 @@
 
     }
 
-    // .rf-lifting__question-text
+    // .headband__question-text
 
     &__question-text {
         @include nsm {
@@ -50,7 +50,7 @@
         }
     }
 
-    // .rf-lifting__text-block
+    // .headband__text-block
 
     &__text-block {
         width: 100%;
@@ -61,7 +61,7 @@
         }
     }
 
-    // .rf-lifting__text-block-item
+    // .headband__text-block-item
 
     &__text-block-item {
         margin-bottom: 8.33vw;
@@ -74,29 +74,40 @@
         }
     }
 
-    // .rf-lifting__figure-wrapper
+    // .headband__text-uppercase
+
+    &__text-uppercase {
+        text-transform: uppercase;
+    }
+
+    // .headband__text-bold
+
+    &__text-bold {
+        font-weight: 700;
+    }
+
+    // .headband__figure-wrapper
 
     &__figure-wrapper {
         width: 100%;
-        height: 76.27vw;
+        height: 89.33vw;
         margin-bottom: 9.37vw;    
     }
 
-    // .rf-lifting__figure-img
+    // .headband__figure-img
 
     &__figure-img {
-        width: 89.33vw;
-        height: 55.20vw;
-        margin-bottom: 5.07vw;
+        width: 100%;
+        height: 100%;
 
-        // .rf-lifting__figure-img_border-round
+        // .headband__figure-img_border-round
 
 		&_border-round {
 			border-radius: 4vw;
 		}
     }
 
-    // .rf-lifting__figure-caption
+    // .headband__figure-caption
 
     &__figure-caption {
         font-size: 3.47vw;
@@ -104,7 +115,7 @@
         line-height: 1.5;
     }
 
-    // .rf-lifting__button
+    // .headband__button
 
     &__button {
         @include nsm {
@@ -120,20 +131,20 @@
             justify-content: center;
             margin-bottom: 2.67vw;
 
-			// .rf-lifting__button_margin-bottom-none
+			// .headband__button_margin-bottom-none
 
 			&_margin-bottom-none {
                 margin-bottom: 0;
 			}
 
-            // .rf-lifting__button_application
+            // .headband__button_application
 
 			&_application {
                 background-color: #E03638;
                 color: #fff;
 			}
             
-            // .rf-lifting__button_questions
+            // .headband__button_questions
 
 			&_questions {
                 background: none;

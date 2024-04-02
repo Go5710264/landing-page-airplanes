@@ -9,9 +9,12 @@ import './scss/gray-advertising-page.scss'
 import './scss/video-block.scss';
 import './scss/beauty-academy.scss';
 import './scss/hair-styler.scss';
+import './scss/ems-vacuum.scss';
 import './scss/rf-lifting.scss';
-
-
+import './scss/rf-eye-lifting.scss';
+import './scss/beauty-boxes.scss';
+import './scss/headband.scss';
+import './scss/fitness-room.scss';
 
 
 import './scss/main.scss';

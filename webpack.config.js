@@ -64,6 +64,26 @@ module.exports = {
       template: './src/rf-lifting.html',
       filename: './rf-lifting.html',
     }),
+    new HtmlWebPackPlugin({
+      template: './src/rf-eye-lifting.html',
+      filename: './rf-eye-lifting.html',
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/ems-vacuum.html',
+      filename: './ems-vacuum.html',
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/beauty-boxes.html',
+      filename: './beauty-boxes.html',
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/headband.html',
+      filename: './headband.html',
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/fitness-room.html',
+      filename: './fitness-room.html',
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
