@@ -29,6 +29,7 @@
 
 		&_daily-massage {
 			width: 99%;
+			margin-bottom: 9vw;
 		}
 	
 	}
@@ -36,12 +37,13 @@
 	// .black-advertising-page__figure-wrapper
 
 	&__figure-wrapper {
-		width: 100%;
 		height: 92.27vw;
 
 		// .black-advertising-page__figure-wrapper_osteopath
 
-		&_osteopath {}
+		&_osteopath {
+			margin-bottom: 9.33vw;
+		}
 	}
 
 	// .black-advertising-page__figure-img
@@ -58,7 +60,7 @@
 		// .black-advertising-page__figure-img_osteopath
 
 		&_osteopath {
-			height: 60.8vw;
+			height: 76.8vw;
 			margin-bottom: 2.67vw;
 			background-color: #fff;
 		}

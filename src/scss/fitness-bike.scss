@@ -1,25 +1,24 @@
 @import './mixin.scss';
 
-.ems-vacuum {
-    color: #513434;
-    background-image: url('/src/picture/ems-vacuum-bg.webp');
+.fitness-bike {
+    color: #fff;
     padding-bottom: 8.8vw;
 
-    // .ems-vacuum__header
+    // .fitness-bike__header
 
     &__header {
         width: 100%;
         height: 100vw;
-        margin-bottom: 10.67vw;
+        margin-bottom: 7.67vw;
     }
 
-    // .ems-vacuum__img
+    // .fitness-bike__img
     &__img {
         width: 100%;
         height: 100%;
     }
 
-    // .ems-vacuum__question-title
+    // .fitness-bike__question-title
 
     &__question-title {
         @include nsm {
@@ -29,7 +28,7 @@
         }
     }
 
-    // .ems-vacuum__question-number
+    // .fitness-bike__question-number
 
     &__question-number {
         @include nsm {
@@ -40,7 +39,7 @@
 
     }
 
-    // .ems-vacuum__question-text
+    // .fitness-bike__question-text
 
     &__question-text {
         @include nsm {
@@ -50,18 +49,18 @@
         }
     }
 
-    // .ems-vacuum__text-block
+    // .fitness-bike__text-block
 
     &__text-block {
         width: 100%;
-        margin-bottom: 12.27vw;
+        margin-bottom: 9.27vw;
 
         &:last-child {
             margin-bottom: 0;
         }
     }
 
-    // .ems-vacuum__text-block-item
+    // .fitness-bike__text-block-item
 
     &__text-block-item {
         margin-bottom: 8.33vw;
@@ -74,42 +73,42 @@
         }
     }
 
-        // .ems-vacuum__text-uppercase
+    // .fitness-bike__text-uppercase
 
-        &__text-uppercase {
-            text-transform: uppercase;
-        }
+    &__text-uppercase {
+        text-transform: uppercase;
+    }
 
-    // .ems-vacuum__figure-wrapper
+    // .fitness-bike__figure-wrapper
 
     &__figure-wrapper {
         width: 100%;
         margin-bottom: 9.37vw;    
     }
 
-    // .ems-vacuum__figure-img
+    // .fitness-bike__figure-img
 
     &__figure-img {
         width: 89.33vw;
-        height: 72.53vw;
-        margin-bottom: 5.07vw;
+        height: 90.67vw;
+        margin-bottom: 2.97vw;
 
-        // .ems-vacuum__figure-img_border-round
+        // .fitness-bike__figure-img_border-round
 
 		&_border-round {
 			border-radius: 4vw;
 		}
     }
 
-    // .ems-vacuum__figure-caption
+    // .fitness-bike__figure-caption
 
     &__figure-caption {
-        font-size: 3.47vw;
+        font-size: 3.97vw;
         font-weight: 400;
         line-height: 1.5;
     }
 
-    // .ems-vacuum__button
+    // .fitness-bike__button
 
     &__button {
         @include nsm {
@@ -125,24 +124,22 @@
             justify-content: center;
             margin-bottom: 2.67vw;
 
-			// .ems-vacuum__button_margin-bottom-none
+			// .fitness-bike__button_margin-bottom-none
 
 			&_margin-bottom-none {
                 margin-bottom: 0;
 			}
 
-            // .ems-vacuum__button_application
+            // .fitness-bike__button_application
 
 			&_application {
                 background-color: #E03638;
-                color: #fff;
 			}
             
-            // .ems-vacuum__button_questions
+            // .fitness-bike__button_questions
 
 			&_questions {
                 background: none;
-                color: #513434;
                 border: solid .27vw #E03638;
 			}
         }

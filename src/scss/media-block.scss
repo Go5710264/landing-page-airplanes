@@ -1,10 +1,21 @@
 @import './mixin.scss';
 
-.video-block {
+.media-block {
 
-    // .video-block__video
+    // .media-block__video
 
     &__video {
+
+        // .media-block__video_daily-massage
+
+        &_daily-massage {
+            height: 54.93vw;
+        }
+    }
+
+    // .media-block__media
+
+    &__media {
         @include nsm {
             background-color: #fff;
             border-radius: 4vw;
@@ -14,14 +25,32 @@
             margin-bottom: 6.67vw;
         }
     
-        // .video-block__video_beauty-academy
+        
+        // .media-block__media_beauty-academy
 
         &_beauty-academy {
             height: 46.67vw;
+        }   
+        
+        // .media-block__video_fitness-room
+
+        &_fitness-room {
+            @include nsm {
+                height: 61.87vw;
+                overflow: hidden;
+            }
+        }
+        // .media-block__media_for-travel
+
+        &_for-travel {
+            @include nsm {
+                height: 55.47vw;
+                overflow: hidden;
+            }
         }    
     }
 
-    // .video-block__button
+    // .media-block__button
 
     &__button {
         @include nsm {
@@ -39,4 +68,12 @@
             justify-content: center;
         }
     }
+
+    // .media-block__img
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+
 }

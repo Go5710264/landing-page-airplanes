@@ -1,11 +1,11 @@
 @import './mixin.scss';
 
-.ems-vacuum {
-    color: #513434;
-    background-image: url('/src/picture/ems-vacuum-bg.webp');
+.aqua-balance-mini {
+    color: #181818;
+    background-color: #E0E0E0;
     padding-bottom: 8.8vw;
 
-    // .ems-vacuum__header
+    // .aqua-balance-mini__header
 
     &__header {
         width: 100%;
@@ -13,23 +13,23 @@
         margin-bottom: 10.67vw;
     }
 
-    // .ems-vacuum__img
+    // .aqua-balance-mini__img
     &__img {
         width: 100%;
         height: 100%;
     }
 
-    // .ems-vacuum__question-title
+    // .aqua-balance-mini__question-title
 
     &__question-title {
         @include nsm {
             display: flex;
             column-gap: 2.2vw;
-            margin-bottom: 6.67vw;
+            margin-bottom: 5.07vw;
         }
     }
 
-    // .ems-vacuum__question-number
+    // .aqua-balance-mini__question-number
 
     &__question-number {
         @include nsm {
@@ -40,31 +40,41 @@
 
     }
 
-    // .ems-vacuum__question-text
+    // .aqua-balance-mini__question-text
 
     &__question-text {
         @include nsm {
-            font-size: 5.07vw;
+            font-size: 5.17vw;
             font-weight: 700;
             line-height: 1.4;
         }
     }
 
-    // .ems-vacuum__text-block
+    // .aqua-balance-mini__question-text-item
+
+    &__question-text-item {
+        margin-bottom: 6.33vw;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    // .aqua-balance-mini__text-block
 
     &__text-block {
         width: 100%;
-        margin-bottom: 12.27vw;
+        margin-bottom: 8.87vw;
 
         &:last-child {
             margin-bottom: 0;
         }
     }
 
-    // .ems-vacuum__text-block-item
+    // .aqua-balance-mini__text-block-item
 
     &__text-block-item {
-        margin-bottom: 8.33vw;
+        margin-bottom: 7.73vw;
         font-size: 4.53vw;
         font-weight: 400;
         line-height: 1.7;
@@ -74,42 +84,42 @@
         }
     }
 
-        // .ems-vacuum__text-uppercase
+    // .aqua-balance-mini__text-uppercase
 
-        &__text-uppercase {
-            text-transform: uppercase;
-        }
+    &__text-uppercase {
+        text-transform: uppercase;
+    }
 
-    // .ems-vacuum__figure-wrapper
+    // .aqua-balance-mini__figure-wrapper
 
     &__figure-wrapper {
         width: 100%;
-        margin-bottom: 9.37vw;    
+        margin-bottom:8.37vw;    
     }
 
-    // .ems-vacuum__figure-img
+    // .aqua-balance-mini__figure-img
 
     &__figure-img {
         width: 89.33vw;
-        height: 72.53vw;
-        margin-bottom: 5.07vw;
+        height: 90.67vw;
+        margin-bottom: 2.97vw;
 
-        // .ems-vacuum__figure-img_border-round
+        // .aqua-balance-mini__figure-img_border-round
 
 		&_border-round {
 			border-radius: 4vw;
 		}
     }
 
-    // .ems-vacuum__figure-caption
+    // .aqua-balance-mini__figure-caption
 
     &__figure-caption {
-        font-size: 3.47vw;
+        font-size: 3.97vw;
         font-weight: 400;
         line-height: 1.5;
     }
 
-    // .ems-vacuum__button
+    // .aqua-balance-mini__button
 
     &__button {
         @include nsm {
@@ -125,24 +135,23 @@
             justify-content: center;
             margin-bottom: 2.67vw;
 
-			// .ems-vacuum__button_margin-bottom-none
+			// .aqua-balance-mini__button_margin-bottom-none
 
 			&_margin-bottom-none {
                 margin-bottom: 0;
 			}
 
-            // .ems-vacuum__button_application
+            // .aqua-balance-mini__button_application
 
 			&_application {
                 background-color: #E03638;
-                color: #fff;
 			}
             
-            // .ems-vacuum__button_questions
+            // .aqua-balance-mini__button_questions
 
 			&_questions {
                 background: none;
-                color: #513434;
+                color: #181818;
                 border: solid .27vw #E03638;
 			}
         }

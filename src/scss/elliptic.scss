@@ -1,11 +1,10 @@
 @import './mixin.scss';
 
-.ems-vacuum {
-    color: #513434;
-    background-image: url('/src/picture/ems-vacuum-bg.webp');
+.elliptic {
+    color: #fff;
     padding-bottom: 8.8vw;
 
-    // .ems-vacuum__header
+    // .elliptic__header
 
     &__header {
         width: 100%;
@@ -13,13 +12,13 @@
         margin-bottom: 10.67vw;
     }
 
-    // .ems-vacuum__img
+    // .elliptic__img
     &__img {
         width: 100%;
         height: 100%;
     }
 
-    // .ems-vacuum__question-title
+    // .elliptic__question-title
 
     &__question-title {
         @include nsm {
@@ -29,7 +28,7 @@
         }
     }
 
-    // .ems-vacuum__question-number
+    // .elliptic__question-number
 
     &__question-number {
         @include nsm {
@@ -40,7 +39,7 @@
 
     }
 
-    // .ems-vacuum__question-text
+    // .elliptic__question-text
 
     &__question-text {
         @include nsm {
@@ -50,18 +49,28 @@
         }
     }
 
-    // .ems-vacuum__text-block
+    // .elliptic__question-text-item
+
+    &__question-text-item {
+        margin-bottom: 6.33vw;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    // .elliptic__text-block
 
     &__text-block {
         width: 100%;
-        margin-bottom: 12.27vw;
+        margin-bottom: 9.27vw;
 
         &:last-child {
             margin-bottom: 0;
         }
     }
 
-    // .ems-vacuum__text-block-item
+    // .elliptic__text-block-item
 
     &__text-block-item {
         margin-bottom: 8.33vw;
@@ -74,42 +83,42 @@
         }
     }
 
-        // .ems-vacuum__text-uppercase
+    // .elliptic__text-uppercase
 
-        &__text-uppercase {
-            text-transform: uppercase;
-        }
+    &__text-uppercase {
+        text-transform: uppercase;
+    }
 
-    // .ems-vacuum__figure-wrapper
+    // .elliptic__figure-wrapper
 
     &__figure-wrapper {
         width: 100%;
-        margin-bottom: 9.37vw;    
+        margin-bottom: 7.87vw;    
     }
 
-    // .ems-vacuum__figure-img
+    // .elliptic__figure-img
 
     &__figure-img {
         width: 89.33vw;
-        height: 72.53vw;
-        margin-bottom: 5.07vw;
+        height: 90.67vw;
+        margin-bottom: 2.97vw;
 
-        // .ems-vacuum__figure-img_border-round
+        // .elliptic__figure-img_border-round
 
 		&_border-round {
 			border-radius: 4vw;
 		}
     }
 
-    // .ems-vacuum__figure-caption
+    // .elliptic__figure-caption
 
     &__figure-caption {
-        font-size: 3.47vw;
+        font-size: 3.97vw;
         font-weight: 400;
         line-height: 1.5;
     }
 
-    // .ems-vacuum__button
+    // .elliptic__button
 
     &__button {
         @include nsm {
@@ -125,24 +134,22 @@
             justify-content: center;
             margin-bottom: 2.67vw;
 
-			// .ems-vacuum__button_margin-bottom-none
+			// .elliptic__button_margin-bottom-none
 
 			&_margin-bottom-none {
                 margin-bottom: 0;
 			}
 
-            // .ems-vacuum__button_application
+            // .elliptic__button_application
 
 			&_application {
                 background-color: #E03638;
-                color: #fff;
 			}
             
-            // .ems-vacuum__button_questions
+            // .elliptic__button_questions
 
 			&_questions {
                 background: none;
-                color: #513434;
                 border: solid .27vw #E03638;
 			}
         }

@@ -1,30 +1,30 @@
 @import './mixin.scss';
 
-.fitness-room {
+.for-travel {
     padding-bottom: 10.13vw;
-    background-color: #181818;
-    color: #FFFFFF;
+    background-color: #D3D3D3;
+    color: #181818;
 
-    // .fitness-room__logotype
+    // .for-travel__logotype
 
     &__logotype {
         width: 100%;
-        height: 75.20vw;
+        height: 97.87vw;
         margin-bottom: 9.33vw;
     }
 
-    // .fitness-room__img
+    // .for-travel__img
 
     &__img {
         width: 100%;
         height: 100%;
     }
 
-    // .fitness-room__container-box
+    // .for-travel__container-box
 
     &__container-box {}
 
-    // .fitness-room__title
+    // .for-travel__title
 
     &__title {
         font-size: 6.93vw;
@@ -32,19 +32,19 @@
         margin-bottom: 8vw;
     }
 
-    // .fitness-room__text-block
+    // .for-travel__text-block
 
     &__text-block {
         width: 100%;
         margin-bottom: 8.33vw;
 
-        // .fitness-room__text-block_margin-bottom-none
+        // .for-travel__text-block_margin-bottom-none
 
         &_margin-bottom-none {
             margin-bottom: 0;
         }
     
-        // .fitness-room__text-block_video
+        // .for-travel__text-block_video
 
         &_video {
             @include nsm {
@@ -53,7 +53,7 @@
         }    
     }
 
-    // .fitness-room__text-block-item
+    // .for-travel__text-block-item
 
     &__text-block-item {
         margin-bottom: 8.33vw;
@@ -66,7 +66,7 @@
         }
     }
 
-    // .fitness-room__question
+    // .for-travel__question
 
     &__question {
 
@@ -77,11 +77,11 @@
             position: relative;
             z-index: 1;
             border-radius: 4vw;
-            background-color: #383838;
+            background-color: #E0E0E0;
         }
     }
 
-    // .fitness-room__question-title
+    // .for-travel__question-title
 
     &__question-title {
         @include nsm {
@@ -91,7 +91,7 @@
         }
     }
 
-    // .fitness-room__question-number
+    // .for-travel__question-number
 
     &__question-number {
         @include nsm {
@@ -102,7 +102,7 @@
 
     }
 
-    // .fitness-room__question-text
+    // .for-travel__question-text
 
     &__question-text {
         @include nsm {
@@ -112,7 +112,7 @@
         }
     }
 
-    // .fitness-room__question-text-item
+    // .for-travel__question-text-item
 
     &__question-text-item {
         margin-bottom: 35px;
@@ -122,7 +122,7 @@
         }
     }
 
-    // .fitness-room__text-bold
+    // .for-travel__text-bold
 
     &__text-bold {
         @include nsm{
@@ -130,7 +130,7 @@
         }
     }
     
-    // .fitness-room__swiper-container
+    // .for-travel__swiper-container
 
     &__swiper-container {
         @include nsm {
@@ -139,13 +139,13 @@
         }
     }
 
-    // .fitness-room__figure-wrapper
+    // .for-travel__figure-wrapper
 
     &__figure-wrapper {
         width: 100%;
     }
     
-    // .fitness-room__figure-img
+    // .for-travel__figure-img
     
     &__figure-img {
         width: 100%;
@@ -154,14 +154,14 @@
         box-shadow: 0px 2px 12px 0px #0000001A;
         background-color: #fff;
 
-        // .fitness-room__figure-img_border-round
+        // .for-travel__figure-img_border-round
 
         &_border-round {
             border-radius: 4vw;
         }
     }
 
-    // .fitness-room__figure-caption
+    // .for-travel__figure-caption
 
     &__figure-caption {
         font-size: 4vw;

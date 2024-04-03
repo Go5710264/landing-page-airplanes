@@ -1,11 +1,11 @@
 @import './mixin.scss';
 
-.ems-vacuum {
-    color: #513434;
-    background-image: url('/src/picture/ems-vacuum-bg.webp');
+.air-travel {
+    color: #181818;
+    background-color: #E0E0E0;
     padding-bottom: 8.8vw;
 
-    // .ems-vacuum__header
+    // .air-travel__header
 
     &__header {
         width: 100%;
@@ -13,23 +13,23 @@
         margin-bottom: 10.67vw;
     }
 
-    // .ems-vacuum__img
+    // .air-travel__img
     &__img {
         width: 100%;
         height: 100%;
     }
 
-    // .ems-vacuum__question-title
+    // .air-travel__question-title
 
     &__question-title {
         @include nsm {
             display: flex;
             column-gap: 2.2vw;
-            margin-bottom: 6.67vw;
+            margin-bottom: 8.77vw;
         }
     }
 
-    // .ems-vacuum__question-number
+    // .air-travel__question-number
 
     &__question-number {
         @include nsm {
@@ -40,7 +40,7 @@
 
     }
 
-    // .ems-vacuum__question-text
+    // .air-travel__question-text
 
     &__question-text {
         @include nsm {
@@ -50,21 +50,31 @@
         }
     }
 
-    // .ems-vacuum__text-block
+    // .air-travel__question-text-item
+
+    &__question-text-item {
+        margin-bottom: 6.33vw;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    // .air-travel__text-block
 
     &__text-block {
         width: 100%;
-        margin-bottom: 12.27vw;
+        margin-bottom: 11.27vw;
 
         &:last-child {
             margin-bottom: 0;
         }
     }
 
-    // .ems-vacuum__text-block-item
+    // .air-travel__text-block-item
 
     &__text-block-item {
-        margin-bottom: 8.33vw;
+        margin-bottom: 7.73vw;
         font-size: 4.53vw;
         font-weight: 400;
         line-height: 1.7;
@@ -74,42 +84,42 @@
         }
     }
 
-        // .ems-vacuum__text-uppercase
+    // .air-travel__text-uppercase
 
-        &__text-uppercase {
-            text-transform: uppercase;
-        }
+    &__text-uppercase {
+        text-transform: uppercase;
+    }
 
-    // .ems-vacuum__figure-wrapper
+    // .air-travel__figure-wrapper
 
     &__figure-wrapper {
         width: 100%;
-        margin-bottom: 9.37vw;    
+        margin-bottom:10.27vw;    
     }
 
-    // .ems-vacuum__figure-img
+    // .air-travel__figure-img
 
     &__figure-img {
         width: 89.33vw;
-        height: 72.53vw;
-        margin-bottom: 5.07vw;
+        height: 90.67vw;
+        margin-bottom: 2.97vw;
 
-        // .ems-vacuum__figure-img_border-round
+        // .air-travel__figure-img_border-round
 
 		&_border-round {
 			border-radius: 4vw;
 		}
     }
 
-    // .ems-vacuum__figure-caption
+    // .air-travel__figure-caption
 
     &__figure-caption {
-        font-size: 3.47vw;
+        font-size: 3.97vw;
         font-weight: 400;
         line-height: 1.5;
     }
 
-    // .ems-vacuum__button
+    // .air-travel__button
 
     &__button {
         @include nsm {
@@ -125,24 +135,23 @@
             justify-content: center;
             margin-bottom: 2.67vw;
 
-			// .ems-vacuum__button_margin-bottom-none
+			// .air-travel__button_margin-bottom-none
 
 			&_margin-bottom-none {
                 margin-bottom: 0;
 			}
 
-            // .ems-vacuum__button_application
+            // .air-travel__button_application
 
 			&_application {
                 background-color: #E03638;
-                color: #fff;
 			}
             
-            // .ems-vacuum__button_questions
+            // .air-travel__button_questions
 
 			&_questions {
                 background: none;
-                color: #513434;
+                color: #181818;
                 border: solid .27vw #E03638;
 			}
         }
